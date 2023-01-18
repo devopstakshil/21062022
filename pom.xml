@@ -3,8 +3,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0   
 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
   
-  <modelVersion>4.0.0</modelVersion>  
+  <modelVersion>4.0.0</modelVersion>
   
+  <properties>
+		<docker.image.prefix>kammana</docker.image.prefix>
+		<sonar.host.url>http://54.150.241.249:9000/</sonar.host.url>
+
   <groupId>com.javatpoint.application1</groupId>  
   <artifactId>my-application1</artifactId>  
   <version>1.0</version>  
